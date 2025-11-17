@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom */
+body {
+  @apply bg-white text-gray-800;
+}
+
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* small card shadow */
+.card-shadow {
+  box-shadow: 0 6px 18px rgba(2,6,23,0.08);
+}
